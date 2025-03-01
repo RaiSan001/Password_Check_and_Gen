@@ -5,6 +5,7 @@ import random
 root = tk.Tk()
 root.title("Password Checker")
 root.geometry("400x350") #width x height
+root.resizable(False, False)
 root.configure(bg="Black")
 
 #centering the main thing
